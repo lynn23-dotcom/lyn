@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body id="home">
+    <h1>DigiBit</h1>
+      <HR width="75%">
+    <h2 id="heading"> Job Application Form</h2>
+
+
+    <form>
+       <label><h2>Bio Data:</h2></label>
+       <font face="Arial Black">Sir Name:</font> &nbsp;&nbsp;&nbsp;  <input type="text" name="username" placeholder="Enter Sir Name"><br><br> 
+       <font face="Arial Black">Second Name:</font> &nbsp; <input type="text" name="username" placeholder="Enter Second Name"><br><br>
+       <font face="Arial Black">Address:</font> &nbsp; <input type="text" name="address" placeholder="Enter Address"><br><br>
+       <aside><font face="Arial Black">Profile Picture:</font><input type="file" name="pic" accept=".jpg"/></aside>
+
+       <label><h2>Gender:</h2></label>
+       <input type="radio" name="gender">Female
+       <input type="radio" name="gender">Male
+
+       <label><h2>Marital Status:</h2></label>
+       <input type="radio" name="status">Single<br><br>
+       <input type="radio" name="status">Married<br><br>
+       <input type="radio" name="status">Divorced<br><br>
+
+
+
+  <label><h2>Date Of Birth:</h2></label>
+       <input type="date" name="date">
+
+
+       <label><h2>Job Positions:</h2></label>
+       <input type="checkbox" name="postions">Office Attendant<br>
+       <input type="checkbox" name="postions">Software Developer<br>
+       <input type="checkbox" name="postions">Marketer<br>
+       <input type="checkbox" name="postions">Graphic Designer<br>
+       <input type="checkbox" name="postions">Cleaner<br>
+       <input type="checkbox" name="postions">Public Relations Officer<br>
+
+
+       <label><h2>Languages Spoken:</h2></label>
+
+       <input type="checkbox" name="Languages">English<br>
+       <input type="checkbox" name="Languages">Swahili<br>
+       <input type="checkbox" name="Languages">Luganda<br>
+       <input type="checkbox" name="Languages">Runyankole/Rukiga<br>
+       <input type="checkbox" name="Languages">Runyoro/Rutoro<br>
+
+
+       <label for="skills"><h2>Communication Skills:</h2></label>
+
+       <select name="skills" id="skills">
+         <option value="excellent">Excellent</option>
+         <option value="very_good">Very Good</option>
+         <option value="good">Good</option>
+         <option value="fair">Fair</option>
+       </select>
+
+       <label for="work-experience"><h2>Work Experience:</h2></label>
+       <textarea  name="work-experience" cols="50" rows="20"maxlength="1000">
+
+        </textarea>
+
+
+        <label for="myfile"><h2>Attach Application Letter:</h2></label>
+        <input type="file" id="selectfile"
+        accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf"><BR><BR>
+
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET"><br><br>
+
+        <a href="description.html">See Our Job Description Page</a>
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
+<style>
+  #heading{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 25px;
+    text-decoration: underline;
+    }
+</style>
